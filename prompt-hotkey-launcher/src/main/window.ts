@@ -12,7 +12,7 @@ function getRendererUrl(route: string): string {
   if (isDev) {
     return `http://localhost:5173/#${route}`;
   }
-  return `file://${path.join(__dirname, '../renderer/index.html')}#${route}`;
+  return `file://${path.join(__dirname, '../../renderer/index.html')}#${route}`;
 }
 
 /** Create or show the popup window near cursor */

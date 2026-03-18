@@ -114,7 +114,7 @@ function setupIPC(): void {
 
 function copySamplePrompts(): void {
   const fs = require('fs');
-  const sampleDir = path.join(__dirname, '../../prompts');
+  const sampleDir = path.join(__dirname, '../../../prompts');
   const targetDir = getPromptsDir();
 
   if (fs.existsSync(sampleDir)) {
